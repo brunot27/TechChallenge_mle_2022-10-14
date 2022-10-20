@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mle_package"
+version = "1.0"
+authors = [
+  { name="Brunot", email="brunotmouan@gmail.com" },
+]
+description = "Machine Learning Package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
